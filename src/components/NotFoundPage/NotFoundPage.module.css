@@ -1,0 +1,50 @@
+.root {
+  height: 100vh;
+  background: #D93E30;
+}
+
+.wrap {
+  position: relative;
+  padding: 5%;
+}
+
+.text {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 700px;
+  line-height: 818px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+  color: rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(4px 4px 24px rgba(1, 17, 38, 0.2));
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  top: 18%;
+  left: calc((100% - 730px) / 2);
+}
+
+.subtitle {
+  left: -40px;
+  width: 100%;
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.subtitle span {
+  color: #F2F2F2;
+}
+
+.layer button {
+  position: relative;
+  left: 22%;
+}
